@@ -1,34 +1,18 @@
-# Day 1 — SOC Incident Lifecycle Notes
+SOC Investigation Scenario — SSH Alert
 
-## SOC Analyst Levels
-L1:
-L2:
-L3:
+Alert:
+Critical SSH login by malicious IP after repeated failed attempts
 
-## Incident Lifecycle Stages
-Detection:
-Triage:
-Validation:
-Investigation:
-Containment:
-Eradication:
-Recovery:
-Lessons Learned:
+Steps Taken:
+- Checked the SIEM alert dashboard
+- Noted repeated failed login attempts
+- Noted a successful login attempt
+- Checked IP address database for reputation
+- Confirmed malicious IP address classification
+- Escalated to SOC lead
+- Blocked IP address via firewall management panel
 
-## Log Sources Used in SOC
-- Windows Event Logs
-- Linux auth logs
-- Firewall logs
-- Cloud logs
-- EDR alerts
-
-## Escalation Triggers
-- 
-- 
-- 
-- 
-- 
-- 
-
-## CV Evidence From Day 1 Lab
-- Built SOC incident lifecycle reference model covering alert triage and escalation workflow.
+Log Indicators:
+- Multiple failed SSH login attempts
+- Use of repeated IP address for failed attempts
+- Successful login attempt after repeated failed attempts
