@@ -53,3 +53,10 @@ This lab supports my preparation for:
 Junior SOC Analyst  
 Security Operations Analyst  
 Cyber Security Analyst (Entry Level)
+
+## Sample Investigation Reports
+
+• SOC Alert Investigation Walkthrough — lab-reports/lab01_soc_alert_walkthrough.md  
+• Human Attack Vector Analysis — lab-reports/lab02_humans_attack_vectors.md  
+• SOC Roles & Escalation Structure — lab-reports/lab02_soc_roles_and_structure.md  
+
