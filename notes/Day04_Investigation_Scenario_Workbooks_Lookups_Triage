@@ -1,0 +1,49 @@
+SOC Investigation Scenario — Workbooks & Lookups Triage
+
+Alert:
+Suspicious activity involving VPN brute force and internal network access path
+
+Scenario Summary:
+Used SOC workbooks and lookup resources to investigate alerts using structured decision trees. Followed investigation flowcharts to validate IP activity, user behavior, subnet roles, and expected network access patterns.
+
+Steps Taken:
+- Reviewed SOC workbook investigation model
+- Used investigation flowcharts to guide triage steps
+- Checked asset and identity records
+- Mapped IP addresses to subnets using network diagram
+- Identified exposed services by port number
+- Verified which subnet a host IP belongs to
+- Traced attacker path across VPN → subnet → internal targets
+- Used workbook logic to determine escalation vs closure
+- Applied structured decision points instead of guesswork
+- Completed Email Analysis workbook
+- Completed PowerShell Analysis workbook
+- Completed Network Analysis workbook
+
+Lookup Actions Performed:
+- User identity lookup
+- Asset role lookup
+- Network subnet classification
+- Port-to-service mapping
+- IP reputation context
+- Login location validation workflow
+- Internal port scanning investigation workflow
+
+Indicators Observed:
+- External IP performing VPN brute force
+- Successful VPN authentication after repeated failures
+- Lateral movement attempt toward database subnet
+- Firewall blocking database subnet access
+- Switch to office subnet targeting
+
+Skills Practiced:
+- Workbook-driven triage
+- SOC decision tree usage
+- Asset and identity enrichment
+- Network diagram interpretation
+- Port and service mapping
+- Structured escalation criteria
+- Repeatable investigation workflow
+
+Key Learning:
+SOC workbooks standardize investigations and reduce analyst error. Using lookup sources and decision trees ensures consistent triage, faster enrichment, and correct escalation decisions across shifts.
