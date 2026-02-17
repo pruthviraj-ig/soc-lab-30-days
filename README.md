@@ -130,5 +130,4 @@ This project supports my preparation for:
 This is an active 30-day SOC lab project. New investigations, detection scenarios, and reports are added continuously as part of daily SOC practice and skill development.
 
 
-## 📂 Repository Structure
 
