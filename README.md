@@ -1,118 +1,134 @@
 # SOC Analyst Practical Lab — 30 Day Detection & Investigation Project
 
-This repository documents my hands-on SOC Analyst lab training and investigation exercises focused on security monitoring, alert triage, alert reporting, escalation workflow, enrichment lookups, and SOC investigation methodology.
+This repository documents my hands-on **SOC Analyst training labs**, detection exercises, and investigation walkthroughs focused on real-world SOC workflows, alert triage, SIEM analysis, and Endpoint Detection & Response (EDR).
 
-The project is structured as a day-by-day practical portfolio demonstrating repeatable SOC investigation and documentation practices.
-
----
-
-## Objectives
-
-• Build practical SOC investigation skills  
-• Understand full alert lifecycle and escalation workflow  
-• Practice alert triage and reporting standards  
-• Apply SOC workbooks and lookup-driven investigations  
-• Map attack techniques to MITRE ATT&CK concepts  
-• Develop structured incident documentation habits  
-• Produce portfolio-ready investigation reports  
+The project demonstrates practical blue team skills aligned with **SOC L1 / Junior SOC Analyst** job requirements.
 
 ---
 
-## Lab Coverage
+##  Project Objectives
+
+- Build practical SOC investigation skills
+- Perform alert triage and validation
+- Analyze SIEM and EDR detections
+- Understand attacker behavior patterns
+- Map activity to MITRE ATT&CK techniques
+- Practice incident documentation and reporting
+- Develop structured investigation methodology
+
+---
+
+##  Lab Coverage
 
 This SOC lab project includes:
 
-• SOC alert investigation walkthroughs  
-• Incident lifecycle documentation  
-• Human attack vector analysis  
-• SOC team roles and escalation structure  
-• SOC L1 alert triage workflow  
-• Alert reporting using Five Ws methodology  
-• Alert escalation to L2 workflow  
-• SOC workbook & lookup-based investigations  
-• Detection and response workflow notes  
-• Investigation reports with screenshots  
-• Structured analyst investigation logs  
+- SOC alert investigation walkthroughs
+- SIEM alert analysis labs
+- EDR detection and response labs
+- Alert lifecycle and escalation workflow
+- Endpoint process chain analysis
+- IOC and threat intelligence matching
+- MITRE ATT&CK mapping exercises
+- Detection reporting and analyst notes
+- Investigation evidence with screenshots
 
 ---
 
 ## Skills Demonstrated
 
-• Alert triage and validation  
-• SOC L1 reporting standards  
-• Five Ws incident reporting  
-• Escalation decision process  
-• Analyst comment writing  
-• Alert enrichment using lookup sources  
-• Asset & identity context building  
-• Network diagram and subnet analysis  
-• Port-to-service mapping  
-• Workbook-driven investigation workflow  
-• Log analysis fundamentals  
-• SOC workflow understanding  
-• Incident documentation  
+- SOC alert triage  
+- SIEM investigation  
+- EDR investigation  
+- Log analysis fundamentals  
+- Process tree / process chain analysis  
+- IOC review and validation  
+- Threat behavior analysis  
+- MITRE ATT&CK mapping  
+- Incident documentation  
+- Escalation decision workflow  
+- True vs False Positive classification  
+- SOC investigation reporting  
 
 ---
 
-## Tools & Concepts Practiced
+##  Platforms & Lab Tools Used
 
-• SOC alert dashboards (simulated)  
-• SIEM-style alert records  
-• SOC ticket / case workflow  
-• Investigation workbooks & decision trees  
-• Asset and identity lookup references  
-• Network diagrams & subnet mapping  
-• Email / PowerShell / network investigation playbooks  
-• Markdown investigation reporting  
-• GitHub version-controlled lab documentation  
+- TryHackMe SOC Level 1 labs
+- SIEM simulation dashboards
+- EDR simulation environment
+- Windows event log scenarios
+- Endpoint telemetry analysis
+- Investigation reporting in Markdown
+- GitHub documentation workflow
+
+---
+lab-reports/
+SOC investigation lab reports
+SIEM alert investigations
+EDR detection investigations
+
+notes/
+SOC concepts and workflow notes
+SIEM fundamentals notes
+Detection and escalation notes
+
+screenshots/
+Alert dashboards
+Process chains
+SIEM & EDR evidence captures
+
 
 ---
 
-## Repository Structure
+##  Investigation Reports Included
 
-lab-reports → Structured SOC lab investigation reports  
-notes → Scenario notes and investigation summaries  
-screenshots → Alert and investigation evidence captures  
-
----
-
-## Target Roles
-
-This lab supports preparation for:
-
-Junior SOC Analyst  
-SOC Analyst L1  
-Security Operations Analyst  
-Cyber Security Analyst (Entry Level)
+- lab01 — SOC Alert Investigation Walkthrough  
+- lab02 — Human Attack Vector Analysis  
+- lab03 — SOC L1 Alert Triage  
+- lab04 — SOC Roles & Escalation Structure  
+- lab05 — Alert Reporting & Escalation  
+- lab06 — SOC Workbooks & Lookups  
+- lab07 — SOC Metrics & Objectives  
+- lab08 — SOC Metrics & EDR Detection  
+- lab09 — SIEM Alert Investigation  
 
 ---
 
-## Sample Investigation Reports
+##  Key Investigation Scenarios Completed
 
-• SOC Alert Investigation Walkthrough — lab-reports/lab01_soc_alert_walkthrough.md  
-• Human Attack Vector Analysis — lab-reports/lab02_humans_attack_vectors.md  
-• SOC Roles & Escalation Structure — lab-reports/lab02_soc_roles_and_structure.md  
-• SOC L1 Alert Triage — lab-reports/lab03_soc_l1_alert_triage.md  
-• SOC L1 Alert Reporting & Escalation — lab-reports/lab05_alert_reporting_escalation.md  
-• SOC Workbooks & Lookups — lab-reports/lab06_soc_workbooks_lookups.md  
-
----
-
-## Methodology
-
-Each lab is documented using a repeatable SOC workflow:
-
-1. Alert review  
-2. Context enrichment  
-3. Indicator validation  
-4. Structured investigation notes  
-5. Analyst report writing  
-6. Verdict decision  
-7. Escalation or closure  
-8. Evidence capture
+- Malicious Office document execution
+- Credential dumping via LSASS memory access
+- Suspicious process execution from temp directories
+- SIEM rule trigger analysis
+- Suspicious miner process detection
+- Endpoint telemetry behavior review
+- Exfiltration attempt identification
+- Host isolation decision workflow
 
 ---
 
-## Status
+##  Target Roles
 
-Active — Daily SOC lab progression in progress.
+This project supports my preparation for:
+
+- SOC Analyst L1  
+- Junior SOC Analyst  
+- Security Operations Center Analyst  
+- Cyber Security Analyst (Entry Level)  
+- Blue Team Analyst  
+
+---
+
+##  Certifications
+
+- CompTIA Security+
+
+---
+
+##  Status
+
+This is an active 30-day SOC lab project. New investigations, detection scenarios, and reports are added continuously as part of daily SOC practice and skill development.
+
+
+## 📂 Repository Structure
+
