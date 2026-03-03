@@ -1,0 +1,202 @@
+# SOC Investigation Notes — MITRE ATT&CK Framework
+
+Platform: TryHackMe  
+Room: MITRE  
+Role Simulation: SOC Analyst Level 1 — Threat Intelligence & Behaviour Mapping
+
+---
+
+## Objective
+
+Understand how the MITRE ATT&CK framework classifies adversary behaviour and how SOC analysts use it to map alerts, improve detection coverage, and perform threat hunting.
+
+---
+
+## What is MITRE ATT&CK?
+
+MITRE ATT&CK (Adversarial Tactics, Techniques & Common Knowledge) is a globally recognised knowledge base of real-world attacker behaviour.
+
+It categorises attacks into:
+
+- Tactics (the attacker’s goal)
+- Techniques (how they achieve that goal)
+- Sub-techniques (specific implementations)
+
+ATT&CK is behaviour-focused, not signature-based.
+
+---
+
+## Structure of MITRE ATT&CK
+
+### Tactics (The Why)
+
+High-level attacker objectives.
+
+Examples:
+
+- Reconnaissance
+- Initial Access
+- Execution
+- Persistence
+- Privilege Escalation
+- Defense Evasion
+- Credential Access
+- Discovery
+- Lateral Movement
+- Command & Control
+- Exfiltration
+- Impact
+
+---
+
+### Techniques (The How)
+
+Specific methods used to achieve tactics.
+
+Example:
+
+Tactic: Execution  
+Technique: Command and Scripting Interpreter  
+Sub-technique: PowerShell
+
+---
+
+## Example Techniques Studied
+
+- Spearphishing Attachment (Initial Access)
+- Spearphishing Link
+- Exploitation for Client Execution
+- PowerShell execution
+- Windows Command Shell
+- Registry Run Keys / Startup Folder (Persistence)
+
+---
+
+## ATT&CK Navigator
+
+ATT&CK Navigator allows:
+
+- Visual mapping of techniques
+- Layer customisation
+- Group-based attack analysis
+- Detection coverage visualisation
+
+SOC analysts use it to:
+
+- Map alerts to techniques
+- Identify defensive gaps
+- Improve detection strategy
+
+---
+
+## ATT&CK in SOC Operations
+
+SOC analysts use MITRE ATT&CK to:
+
+- Classify incidents consistently
+- Align alerts to known attacker behaviour
+- Improve threat hunting queries
+- Standardise reporting
+- Enhance SIEM detection logic
+
+Example:
+
+Alert: Suspicious PowerShell activity  
+Mapped To:
+- Tactic: Execution
+- Technique: Command and Scripting Interpreter (PowerShell)
+
+---
+
+## ATT&CK for Threat Intelligence
+
+Threat intelligence teams use ATT&CK to:
+
+- Profile adversary groups
+- Track known techniques
+- Understand campaign patterns
+- Predict attacker behaviour
+
+Example:
+
+APT group known for:
+- Spearphishing
+- Credential dumping
+- Registry persistence
+
+SOC can proactively monitor those techniques.
+
+---
+
+## Cyber Analytics Repository (CAR)
+
+CAR provides:
+
+- Detection analytics mapped to ATT&CK techniques
+- Query examples for SIEM
+- Detection engineering references
+
+Helps SOC teams design better monitoring rules.
+
+---
+
+## MITRE D3FEND
+
+D3FEND complements ATT&CK by mapping defensive techniques to offensive techniques.
+
+Purpose:
+
+- Connect defensive controls to attacker behaviour
+- Improve mitigation strategy
+
+---
+
+## SOC Investigation Example
+
+Scenario:
+
+User opens malicious email attachment.
+
+Mapping:
+
+Initial Access → Spearphishing Attachment  
+Execution → PowerShell  
+Persistence → Registry Run Keys  
+Command & Control → Beaconing traffic  
+Exfiltration → Data transfer
+
+MITRE helps track the full attacker lifecycle.
+
+---
+
+## Key Learning
+
+MITRE ATT&CK enables behaviour-based detection rather than relying only on IOCs like IP addresses or hashes.
+
+It improves:
+
+- Threat hunting
+- Incident investigation
+- Detection engineering
+- SOC reporting quality
+
+---
+
+## SOC Skills Practiced
+
+- Behaviour mapping
+- Technique classification
+- ATT&CK Navigator usage
+- Detection gap identification
+- Structured incident documentation
+
+---
+
+## Why MITRE Matters for SOC L1
+
+Understanding MITRE ATT&CK allows analysts to:
+
+- Speak structured security language
+- Map alerts correctly
+- Improve investigation clarity
+- Align with industry-standard frameworks
